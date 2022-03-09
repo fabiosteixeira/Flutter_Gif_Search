@@ -55,13 +55,10 @@ class _HomePageState extends State<HomePage> {
           padding: EdgeInsets.all(10.0),
           child: TextField(
             decoration: InputDecoration(
-                labelText: "Pesquise aqui!",
-                labelStyle: TextStyle(color: Colors.white),
-                border: OutlineInputBorder(),
-                enabledBorder: OutlineInputBorder(
-                    borderSide: BorderSide(
-                  color: Colors.white,
-                ))),
+              labelText: "Pesquise aqui!",
+              labelStyle: TextStyle(color: Colors.white),
+              border: OutlineInputBorder(),
+            ),
             style: TextStyle(
               color: Colors.white,
               fontSize: 18,
